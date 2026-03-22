@@ -1,0 +1,92 @@
+
+html {
+  background-color: #000000;
+  background-image: none; 
+}
+
+h1 {
+  margin: 0;
+  background-color: #ffffff;
+  font-size: 45px;
+  text-align: center;
+  font-family: "Bowlby One SC", sans-serif;
+  text-shadow: 5px 5px 2px #19b7c5;
+}
+
+h2 {
+  background-color: #ffffff;
+  font-size: 30px;
+  text-align: center;
+  font-family: "Bowlby One SC", sans-serif;
+  text-shadow: 5px 5px 2px #ff21ff;
+}
+
+body {
+  background-color: #000000;
+  padding: 20px 20px 20px 20px;
+  border: 5px solid #ff88dd;
+}
+
+
+span {
+  background-color: #ffffff;
+  color: black;
+  /*width: 800px;*/
+  font-size: 18px;
+  text-shadow: 0px 0px 10px #00FFFE;
+  
+}
+
+.content-box {
+  padding: 1.5rem;
+  margin: 2rem auto;
+  margin-top: 0;
+}
+
+
+
+.rounded {
+  border-radius: 24px;
+  border: 6px solid #FF17FF;
+}
+
+
+/* SECTION FOR HIDING TRANSCRIPTS */
+
+label {
+display:block;
+text-decoration:underline;
+margin:20px 0 0;
+border:1px #ff88dd;
+}
+
+label:hover { 
+  text-decoration:underline; 
+  color: #ff88dd;
+}
+
+input {
+position:absolute;
+left:-999em
+}
+
+.hide {
+
+max-height:999em;
+opacity:1;
+height:auto;
+overflow:hidden;
+
+}
+.hide p {
+margin:0
+}
+input[type=checkbox]:checked + div {
+opacity:0;
+max-height:0;
+border:none;
+
+}
+.follow{border-top:1px solid blue;margin:0}
+
+
