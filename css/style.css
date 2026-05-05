@@ -4,7 +4,6 @@ html {
   font-weight: 400;
   font-style: normal;
   background-color: #ffffff;
-  background-image: url("bgimg.png"); 
 }
 
 body {
@@ -13,6 +12,7 @@ body {
   background-color: #ffffff;
   padding: 20px;
   border: 8px solid #000000;
+  background-image: url("bgimg.png"); 
 }
 
 h1 {
